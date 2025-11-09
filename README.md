@@ -22,28 +22,4 @@ This project detects a user's heart rate in real-time using a standard webcam. I
 5.  **BPM Calculation:** Converts this frequency into Beats Per Minute (`BPM = frequency * 60`).
 6.  **Display:** Overlays the BPM on the video feed and updates the Tkinter GUI.
 
-## Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-    cd YOUR_REPOSITORY_NAME
-    ```
-
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-
-3.  **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-Run the main Python script to launch the application:
-
-```bash
-python Grp182HeartRateDetection.py
